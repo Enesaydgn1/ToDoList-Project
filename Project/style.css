@@ -1,0 +1,128 @@
+body{
+    background-color: rgba(216, 216, 216, 0.959);
+    margin-top: 30px;
+}
+
+.textsettings{
+    color: rgb(47, 47, 176);
+    font-size: 25px;
+  
+}
+
+.container .form1 input[type=text] {
+    background-color: transparent;
+    /* margin-top: 5px; */
+    border: none;
+    color: rgb(47, 47, 176);
+    font-size: 25px;
+    outline:none;
+  }
+
+  .container .mt-5 input[type=text]{
+    background-color: white;
+    border: none;
+    color: grey;
+    font-size: 18px;
+    outline:none;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  .texttitle{
+    color:rgb(47, 47, 176); 
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  .textcolor
+{
+    color: grey;
+}
+  .textcolor2
+{
+    color: rgb(47, 47, 176);
+}
+
+
+.radiobuton{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    height: 100px;
+    border:none;
+    border-radius: 5px;
+}
+
+
+
+input#kisisel{
+    border-color: orange  ; 
+    width:19px;
+    height:19px;
+}
+input#is{
+    border-color: blue !important ; 
+    width:19px;
+    height:19px;
+}
+
+input#is:checked {
+    border-color: blue  !important; 
+    background-color: blue !important;
+    width:19px;
+    height:19px; 
+  }
+  
+input#kisisel:checked{
+    background-color: orange !important ;
+    width:19px;
+    height:19px;
+    border-color: orange ;
+}
+
+.form-check-input:focus{
+    outline: none !important;
+}
+
+.SubmitButton{
+    background-color: rgb(246, 127, 0);
+    color: white;
+    width: 100%;
+    margin-top: 25px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 100%;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+
+
+.editButton{
+    background-color: rgb(246, 74, 0);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    padding:5px 10px;
+} 
+
+.deleteButton{
+    background-color: rgb(246, 49, 0);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    padding:5px 10px;
+} 
+
+.liste
+{
+    border-radius: 5px !important;
+}
+
+
+.radio-select{
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+}
